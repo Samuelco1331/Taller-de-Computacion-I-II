@@ -1,0 +1,30 @@
+.div-header {
+    display: flex;
+    width: 54%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.h1-header{
+    color: red;
+}
+table {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(174, 243, 220, 0.295);
+}
+
+th {
+    padding: 50px 100px 50px 100px;
+}
+
+.grey-bg {
+    background-color: rgb(221, 221, 221);
+}
+.div-footer {
+    width: 54%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+body {
+    background-color: blanchedalmond;
+}
