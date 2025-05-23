@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 2rem 1rem;
+    border-bottom: 4px solid #e10600;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #e10600;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    flex: 1;
+}
+
+.card {
+    background-color: #1c1c1c;
+    border: 2px solid #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(225, 6, 0, 0.2);
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(225, 6, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card p {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color: #ddd;
+}
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #e10600;
+    font-size: 0.9rem;
+    color: #999;
+}
